@@ -1,6 +1,6 @@
 import java.util.*;
 class Solution {
-    public int[] solution(int[] progresses, int[] speeds) {
+    public ArrayList solution(int[] progresses, int[] speeds) {
         Queue<Integer> q=new LinkedList<>();
         ArrayList<Integer> arr=new ArrayList<>();
         
@@ -20,14 +20,9 @@ class Solution {
                 q.poll();
                 cnt++;
             }
-            
             arr.add(cnt);
-            
         }
         
-        int[] answer = new int[arr.size()];
-        for(int i=0; i<arr.size(); i++) answer[i]=arr.get(i);
-        
-        return answer;
+        return arr;
     }
 }
