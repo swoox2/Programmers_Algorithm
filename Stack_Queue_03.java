@@ -6,7 +6,6 @@ class Solution {
         
         for(int i=0; i<progresses.length; i++){
             int x=100-progresses[i];
-            int nx=0;
         
             if(x%speeds[i]==0) q.add(x/speeds[i]);
             else q.add(x/speeds[i]+1);
