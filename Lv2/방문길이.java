@@ -11,19 +11,13 @@ class Solution {
                 if(dirs.charAt(i)=='U' && y+1<=5){
                     set.add(x+" "+(y+0.5));
                     y++;
-                } 
-                
-                if(dirs.charAt(i)=='D' && y-1>=-5){
+                }else if(dirs.charAt(i)=='D' && y-1>=-5){
                     set.add(x+" "+(y-0.5));
                     y--;
-                }
-                
-                if(dirs.charAt(i)=='R' && x+1<=5){
+                }else if(dirs.charAt(i)=='R' && x+1<=5){
                     set.add((x+0.5)+" "+y);
                     x++;
-                }
-                
-                if(dirs.charAt(i)=='L' && x-1>=-5){
+                }else if(dirs.charAt(i)=='L' && x-1>=-5){
                     set.add((x-0.5)+" "+y);
                     x--;
                 }
