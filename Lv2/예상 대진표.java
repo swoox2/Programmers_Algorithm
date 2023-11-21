@@ -22,6 +22,6 @@ class Solution{
             len/=2;
     
         }
-        return level;
+        return 0;
     }
 }
