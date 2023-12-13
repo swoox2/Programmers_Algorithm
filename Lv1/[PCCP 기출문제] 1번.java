@@ -3,8 +3,6 @@ class Solution {
         
         int max_h=health;
         
-        int endTime=attacks[attacks.length-1][0];
-        
         health-=attacks[0][1];
         
         if(attacks.length==1){
