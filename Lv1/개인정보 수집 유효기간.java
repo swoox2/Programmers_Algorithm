@@ -1,6 +1,4 @@
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
+import java.util.*;
 
 class Solution {
     public ArrayList solution(String today, String[] terms, String[] privacies) {
